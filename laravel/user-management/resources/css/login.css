@@ -1,0 +1,142 @@
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f40;
+    color: #ffffff;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+
+    box-shadow: 0 1px 3px #0000001a, 0 1px 2px #0000000f;
+    min-width: 600px;
+}
+
+.logo img {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    color: #2f2a3e;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #2f2a3e;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #2f2a3e;
+}
+
+.form-group .required {
+    color: #d9534f;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #c69c5a;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #b08a49;
+}
+
+.help-text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+}
+
+.links {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #c69c5a;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+    color: #aaa;
+    width: 90%;
+    max-width: 600px;
+}
+
+footer a {
+    color: #c69c5a;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+   margin: 5rem;
+   margin-top: 2rem;
+   margin-bottom: 0;
+    align-items: center;
+}
+
+.cont{
+    color: #bb8b41 !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+
+}
